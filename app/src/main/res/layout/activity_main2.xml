@@ -14,7 +14,8 @@
         app:srcCompat="@drawable/vector_4_"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="28dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/rect" />
 
     <TextView
         android:id="@+id/textView5"
@@ -36,7 +37,7 @@
         app:srcCompat="@drawable/rectangle_6"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="347dp"
-        tools:ignore="MissingConstraints"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
         android:contentDescription="TODO" />
 
 
@@ -47,7 +48,7 @@
         app:srcCompat="@drawable/image10_e14591957091_1"
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="97dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -56,7 +57,7 @@
         app:srcCompat="@drawable/rectangle_5"
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="374dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -65,7 +66,7 @@
         app:srcCompat="@drawable/rectangle_5"
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="490dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -74,7 +75,7 @@
         app:srcCompat="@drawable/rectangle_5"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="604dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView7"
@@ -94,9 +95,9 @@
         android:layout_height="wrap_content"
         android:text="@string/kr_info"
         android:textColor="#079459"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteX="180dp"
         tools:layout_editor_absoluteY="528dp"
         tools:ignore="MissingConstraints" />
 
@@ -119,7 +120,7 @@
         app:srcCompat="@drawable/vector__1_"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="392dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -128,7 +129,7 @@
         app:srcCompat="@drawable/vector__2_"
         tools:layout_editor_absoluteX="51dp"
         tools:layout_editor_absoluteY="513dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -137,5 +138,5 @@
         app:srcCompat="@drawable/vector__3_"
         tools:layout_editor_absoluteX="51dp"
         tools:layout_editor_absoluteY="624dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

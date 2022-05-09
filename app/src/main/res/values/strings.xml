@@ -2,10 +2,11 @@
     <string name="screen1_name">Моё смарт-устройство</string>
     <string name="screen2_name" />
     <string name="marshruty">Маршруты</string>
-    <string name="kr_info">Краткая информация</string>
+    <string name="kr_info">Краткая информация ⇓</string>
     <string name="info">Информация</string>
     <string name="rastoyanie">1.3 КМ</string>
     <string name="calorii">59 Kcal</string>
     <string name="vremya">30 MIN</string>
     <string name="shagi">1583 steps</string>
+    <string name="rect">1</string>
 </resources>
